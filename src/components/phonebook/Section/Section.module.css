@@ -1,0 +1,12 @@
+.whoo {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.whoo h1 {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: brown;
+}

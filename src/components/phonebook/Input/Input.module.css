@@ -1,0 +1,32 @@
+.form {
+  text-align: center;
+}
+.input {
+  padding: 20px;
+  transition: 0.4s ease-in-out;
+  outline: none;
+  border: 2px solid black;
+}
+.input:not(:last-child) {
+  margin-right: 30px;
+}
+.input:focus {
+  border: 2px solid skyblue;
+}
+.form label {
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+.but {
+  padding: 20px;
+  border: 2px solid black;
+  outline: none;
+  background-color: green;
+  transition: 0.4s ease-in-out;
+}
+.but:hover {
+  transform: scale(1.2);
+  background-color: rgb(25, 219, 161);
+}
