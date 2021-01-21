@@ -1,0 +1,17 @@
+.buttonMore {
+  border: none;
+  outline: none;
+  padding: 20px;
+  background-color: rgb(15, 228, 192);
+  color: azure;
+  border: 2px solid rgb(15, 228, 192);
+  margin-right: 30px;
+}
+.buttonMoreContainer {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}

@@ -1,4 +1,4 @@
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 
 export default function Fetch(name, page) {
@@ -9,4 +9,9 @@ export default function Fetch(name, page) {
       return response.json();
     }
   });
+}
+
+Fetch.propTypes = {
+  name: PropTypes.string.isRequired,
+  page: PropTypes.number.isRequired
 }

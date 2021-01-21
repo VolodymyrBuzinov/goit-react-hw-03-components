@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+}
+.header {
+  width: 1280px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.form {
+}
+.button {
+  border: none;
+  outline: none;
+  padding: 20px;
+  background-color: rgb(15, 228, 192);
+  color: azure;
+  border: 2px solid rgb(15, 228, 192);
+  margin-right: 30px;
+}
+.input {
+  width: 380px;
+  border: 2px solid transparent;
+  outline: none;
+  padding: 20px;
+}
+.input:focus {
+  border: 2px solid rgb(15, 228, 192);
+}

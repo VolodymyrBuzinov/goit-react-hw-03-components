@@ -1,10 +1,14 @@
-// import PropTypes from 'prop-types';
-
+import PropTypes from 'prop-types';
+import style from './Button.module.css'
 
 export default function Button({incrementPage}) {
     return (
-        <>
-            <button onClick={incrementPage}>Загрузить еще</button>
-        </>
+        <div className={style.buttonMoreContainer}>
+            <button className={style.buttonMore} onClick={incrementPage}>Загрузить еще</button>
+        </div>
     )
+}
+
+Button.propTypes = {
+    incrementPage: PropTypes.func,
 }

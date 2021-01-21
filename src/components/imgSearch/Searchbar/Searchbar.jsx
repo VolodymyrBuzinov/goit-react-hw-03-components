@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Component } from 'react';
 import swal from 'sweetalert';
-
+import style from './Searchbar.module.css'
 export default class Searchbar extends Component {
   state = {
     name: '',
@@ -24,15 +24,16 @@ export default class Searchbar extends Component {
     this.setState({name: evt.target.value.toLowerCase()});
   }
   
-  render() {        
+  render() {   
+    const { header, form, button, input } = style;
     return (
-      <header className="Searchbar">
-  <form className="SearchForm" onSubmit={this.formSubmit}>
-    <button type="submit" className="SearchForm-button">
-      <span className="SearchForm-button-label">Search</span>
+      <header className={header}>
+  <form className={form} onSubmit={this.formSubmit}>
+    <button type="submit" className={button}>
+            <span>Search</span>
     </button>
     <input
-      className="SearchForm-input"
+      className={input}
       type="text"
       autoComplete="off"
       autoFocus

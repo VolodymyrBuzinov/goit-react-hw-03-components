@@ -12,3 +12,10 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+.loaderContainer {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
