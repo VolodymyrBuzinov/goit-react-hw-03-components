@@ -4,7 +4,7 @@ import ImageSearch from './imgSearch/imgSearch'
 export default function App() {
     return (
         <>
-            {/* <Phonebook /> */}
+            <Phonebook />
             <ImageSearch/>
         </>
     )

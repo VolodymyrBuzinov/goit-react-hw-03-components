@@ -3,6 +3,9 @@ import { Component } from 'react';
 import swal from 'sweetalert';
 import style from './Searchbar.module.css'
 export default class Searchbar extends Component {
+  static propTypes = {
+    onFormSubmit: PropTypes.func,
+  }
   state = {
     name: '',
   }

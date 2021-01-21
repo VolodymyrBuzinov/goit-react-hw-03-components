@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(35, 21, 231);
 }
 .header {
   width: 1280px;
@@ -11,9 +11,11 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
+  border: 4px solid rgb(15, 228, 192);
+  padding: 20px;
+  margin-top: 50px;
 }
-.form {
-}
+
 .button {
   border: none;
   outline: none;
